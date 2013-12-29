@@ -311,6 +311,17 @@ border-bottom: 1px solid #CCC;
 margin-bottom: 20px;
 }
 
+.domain-availability-box .domain-search-list .recommend{
+border-bottom: 0;
+padding: 20px;
+padding-bottom: 0;
+}
+
+.domain-availability-box .domain-search-list .last-item {
+border-bottom: 0;
+margin-bottom: -30px;
+}
+
 .domain-availability-box .domain-search-list h5{
 font-family: 'Montserrat','Lato',sans-serif;
 font-size: 18px;
