@@ -241,6 +241,11 @@ font-family: 'Montserrat','Lato',sans-serif;
 text-align: center;
 }
 
+.homepage-tag em {
+color: #EE7214;
+font-style: normal;
+}
+
 .hosting-title {
 font-size: 45px;
 }
@@ -1053,6 +1058,11 @@ width: 400px;
 margin-right: -30%;
 background-color: #FFF;
 box-shadow: 0 0 10px #CCC;
+transition: all 0.5s ease-in-out;
+}
+
+.pull-out {
+margin-right: 0% !important;
 }
 
 .cart-pull-out-wrapper .cart-logo {
@@ -1772,15 +1782,251 @@ opacity: 0.3;
 }
 
 /* Responsive Queries */
-@media (min-width: 768px)
-.navbar-top {
-height: 100px;
--webkit-transition: all 0.2s ease-in-out;
-transition: all 0.2s ease-in-out;
+
+@media (max-width : 1024px) {
+
+	body {
+		overflow-x: hidden;
+	}
+	.menu-wrapper .menu-item {
+		font-size: 15px;
+		margin-left: 20px;
+	}
+
+	.cart-pull-out-wrapper {
+		margin-right: -40%;
+	}
+	
+	.homepage-tag {
+		font-size: 40px;
+	}
+
+	.homepage-tagline {
+		font-size: 15px;
+	}
+
+	.domain-search-box h4 {
+		font-size: 22px;
+	}
+
+	.domain-input-box input {
+		width: 365px;
+	}
+
+	.bigrock-services .content li {
+		font-size: 11px;
+	}
+
+	.bigrock-services .content p.price {
+		font-size: 18px;
+	}
+
+	.btn-purchase {
+		padding: 8px 20px;
+	}
+
+	.client-logo {
+		width: 110px;
+	}
+
+	.client-logo h4 {
+		font-size: 14px;
+	}
+
+	.domain-extensions h4 {
+		font-size: 18px;
+	}
+
+	.cart-sidebar-sticked .cart-sidebar {
+		width: 300px;
+	}
+
+	.cart-sidebar .cart-title {
+		font-size: 16px;
+	}
+
+	span.status {
+		margin: 0px 10px 0px 0px;	
+	}
+
+	.domain-availability-box .domain-search-list h6 {
+		font-size: 16px;
+	}
+
+	.hosting-feature-box img {
+		width: 400px;
+	}
+
+	.hosting-feature-box ul {
+		font-size: 16px;
+	}
+
+	.call-us-wrapper h5, .call-us-wrapper h6 {
+		font-size: 16px;
+	}
+
+	.linux-hosting {
+		padding: 100px 0;
+	}
+
+	.linux-hosting .container {
+		width: 1010px;
+		
+	}
+
+	.hosting-features p {
+		font-size: 15px;
+		margin-left: 30px;
+	}
+
+	.order-summary-wrapper .alert {
+		font-size: 15px;
+	}
+
+	.order-summary-wrapper h6 {
+		font-size: 18px;
+	}
+
+	.order-summary-wrapper .bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]).bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]).bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]) {
+		margin: 0;
+		margin-left: -45px;
+	}
+
+	.order-summary-wrapper .pay-now-container h6 {
+		font-size: 16px;
+	}
+
+	.cart-sidebar {
+		padding: 20px 15px;
+	}
 }
 
-@media (min-width: 768px)
-.navbar-nav {
-float: right;
-margin-right: -15px;
+@media (max-width : 960px) {
+
+	.cart-pull-out-wrapper {
+		display: none;
+	}
+
+	.menu-wrapper .container {
+		width: 860px;
+	}
+
+	.menu-wrapper .menu-item {
+		font-size: 14px;
+		margin-left: 10px;
+	}
+
+	.homepage-tagline {
+		font-size: 13px;
+	}
+
+	.cart-pull-out-wrapper {
+		margin-right: -43%;
+	}
+
+	.domain-search-box h4 {
+		display: none;
+	}
+
+	.domain-input-box input {
+		width: 457px;
+	}
+
+	.domain-price-logo .col-md-2 {
+		width: 30%;
+		margin-bottom: 30px;
+		display: inline-block;
+	}
+
+	.bigrock-services .col-md-4 {
+		width: 275px;
+		display: inline-block;
+	}
+
+	.bigrock-services .row {
+		width: 860px;
+	}
+
+	.bigrock-services .content .icon {
+		width: 75px;
+		height: 75px;
+		font-size: 35px;
+		line-height: 75px;
+	}
+
+	.bigrock-services .content p.price {
+		font-size: 14px;
+	}
+
+	.client-logo {
+		width: 100px;
+	}
+
+	.client-logo h4 {
+		font-size: 13px;
+	}
+
+	.domain-extensions .col-md-1 {
+		display: inline-block;
+		float: left;
+		width: 9%;
+	}
+
+	.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+		margin-left: 100px;
+	}
+
+	.domain-availability-box .domain-search-list h6 {
+		font-size: 16px;
+	}
+
+	.domain-availability-box .domain-search-list li {
+		padding-bottom: 20px;
+	}
+
+	.domain-availability-box .domain-search-list .col-md-6 {
+		width: 50%;
+		display: inline-block;
+		float: left;
+	}
+
+	.domain-availability-box .domain-search-list .col-md-4 {
+		float: left;
+	}
+
+	.cart-sidebar-sticked .cart-sidebar {
+		width: 100%;
+		margin-top: 50px;
+	}
+
+	.order-summary-container .col-md-5 {
+		width: 40%;
+		display: inline-block;
+		float: left;
+	}
+
+	.order-summary-container .col-md-4, .order-summary-container .col-md-2 {
+		float: left;
+	}
+
+	.pay-now-container .col-md-8 {
+		margin-bottom: 80px;
+	}
+	.pay-now-container .col-md-5 {
+		width: 50%;
+		display: inline-block;
+		float: left;
+	}
+
+	.pay-now-container .col-md-4 {
+		float: left;
+		display: inline-block;
+	}
+
+	.pay-now-container .col-md-3 {
+		width: 120px;
+		display: inline-block;
+	}
+
+	
 }

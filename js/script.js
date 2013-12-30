@@ -25,14 +25,12 @@ $(function(){
 
 	//Cart pull out sidebar
 	$(".cart-logo").on('click',function(){
-		$(".cart-pull-out-wrapper").animate({
-			'margin':'0'
-		},300);
+		$(".cart-pull-out-wrapper").addClass("pull-out");
 	});
 
 	$(".cart-pull-out-wrapper").on('mouseleave',function(){
-		$(".cart-pull-out-wrapper").animate({
-			'margin-right':'-30%'
-		},300);
+		$(".cart-pull-out-wrapper").removeClass("pull-out");
 	});
+
+
 });
