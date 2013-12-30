@@ -921,6 +921,18 @@ padding: 20px;
 background-color: #FFF;
 }
 
+.order-summary-wrapper .alert {
+font-size: 18px;
+}
+
+.order-summary-wrapper .alert a {
+margin-left: 10px;
+}
+
+.order-summary-wrapper .alert a:hover {
+text-decoration: none;
+}
+
 .order-summary-wrapper h5 {
 font-family: 'Montserrat','Lato',sans-serif;
 font-size: 18px;
