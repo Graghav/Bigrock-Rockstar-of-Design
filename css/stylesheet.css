@@ -83,6 +83,10 @@ color: #ffffff;
 font-weight: bold;
 }
 
+.navbar-toggle {
+	display: none;
+}
+
 .menu-wrapper .menu-item {
 text-transform: uppercase;
 color: #ffffff;
@@ -1826,7 +1830,11 @@ opacity: 0.3;
 	}
 
 	.client-logo {
-		width: 110px;
+		width: 105px;
+	}
+
+	.client-logo img {
+		height: 90px;
 	}
 
 	.client-logo h4 {
@@ -2029,4 +2037,119 @@ opacity: 0.3;
 	}
 
 	
+}
+
+@media (max-width : 640px) { 
+	.navbar-logo {
+		padding-left: 35%;
+	}
+
+	.navbar-toggle {
+		display: block;
+	}
+
+	.btn-domain-search { 
+		margin-top: 30px;
+	}
+
+	.domain-input-box span {
+		padding: 10px 0px;
+		float: right;
+		margin-right: 20%;
+	}
+
+	.bigrock-services {
+		display: none;
+	}
+
+	.client-wrapper {
+		display: none;
+	}
+
+	.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+		margin-left: 25px;
+	}
+
+	.domain-availability-box .domain-search-list h6 {
+		font-size: 14px;
+	}
+
+	span.status {
+		margin: 0px 5px 0px 0px;
+		width: 70px;
+	}
+
+	.order-summary-wrapper h6 {
+		font-size: 15px;
+	}
+
+	.order-summary-wrapper .btnRemove {
+		padding: 2px 5px;
+	}
+
+	.subtotal .subtotal-container{
+		width: 380px;
+		margin-left: 0px;
+
+	}
+
+	.pay-now-container .btn-group {
+		width: 180px;
+	}
+
+	.pay-now-container .col-md-3 {
+		width: 100px;
+		display: inline-block;
+	}
+
+	.order-summary-wrapper .pay-now-container .btnPaynow {
+		font-size: 13px;
+	}
+
+	.redeem-coupon-container {
+		margin-top: 50px;
+	}
+
+	.hosting-features {
+		margin-top: 50px;
+	}
+
+	.hosting-features .col-md-4 {
+		padding-left: 30%;
+		padding-bottom: 10%;
+	}
+
+	.cbp-qtrotator blockquote p {
+		font-size: 18px;
+	}
+
+	.menu-wrapper .menu-item {
+		display: block;
+		font-size: 16px;
+		text-align: center;
+		padding: 20px;
+		border-bottom: 1px solid #5c5c5c;
+		width: 580px;
+	}
+
+	.btn-home {
+		display: none;
+	}
+
+	.menu-wrapper {
+		display: none;
+	}
+
+	.menu-wrapper .container {
+		width: 640px;
+	}
+
+	.navbar-toggle {
+		background-color: #5c5c5c;
+		margin-top: 30px;
+	}
+
+	.navbar-toggle .icon-bar {
+		background-color: #FFF;
+	}
 }

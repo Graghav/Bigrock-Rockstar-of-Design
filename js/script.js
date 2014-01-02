@@ -32,5 +32,9 @@ $(function(){
 		$(".cart-pull-out-wrapper").removeClass("pull-out");
 	});
 
+	//Responsive Menu
+	$(".navbar-toggle").click(function(){ 
+		 $(".menu-wrapper").slideToggle() 
+	});
 
 });
